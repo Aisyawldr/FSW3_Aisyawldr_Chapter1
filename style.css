@@ -1,0 +1,345 @@
+body{
+    margin: 0 auto;
+    background-color: #222;
+}
+#desktop{
+    margin: 0 auto;
+    width: 1440px;
+    height: auto;
+    background-color: #fff;
+}
+#hero{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("img/bghead.jpeg") !important;  
+}
+#header{
+    margin-left: 136px;
+    margin-right: 130px;
+    height: 504px;
+}
+#header img{
+    width: 100px;
+    height: 34px;
+}
+#teksheader{
+    padding: 150px 0px 0px 0px;
+    width: 500px;
+}
+#ourservice{
+    width: 1027px;
+    height: 428px;
+    margin: 100px 207px 100px 206px;
+}
+#konten{
+    margin: 0 auto;    
+    display: flex;
+    justify-content: center;
+}
+#content1{
+    width: 459px;
+    height: 428px;
+}
+#content1 img{
+    width: 459px;
+    height: 428px;
+}
+#content2{
+    margin-left: 100px;
+    width: 468px;
+    height: 356px; 
+}
+
+/* ====================== Why Us  ======================*/
+#whyus{
+    width: 1168px;
+    margin-left: 136px;   
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+#whyus p{
+    font-size: 15px;
+    font-family: 'Helvetica';
+}
+#whyus img{
+    margin-bottom: 15px;
+}
+#banner{
+    margin: 0 auto;
+    width: 1168px;
+    height: 326px;
+    margin-left: 136px;   
+    display: flex;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 100px;
+    align-content: center;
+}
+
+
+/* ====================== Testimoni ======================*/
+#testimoni{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: 'Helvetica';
+}
+.container{
+    padding: 50px 40px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    font-family: 'Helvetica';
+}
+.tag{
+    text-align: center;
+    font-size: 1.1rem
+}
+.fa-heart{
+    color: rgba(255, 230, 0, 0.959);
+    font-size: 30px
+}
+.card{
+    height: 320px;
+    padding: 10px 10px;
+    border: none;
+    box-shadow: -1px 3px 5px #a7a7a7
+}
+.testimonial{
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    font-weight: 500
+}
+.active-star{
+    color: #FBC02D;
+    margin-bottom: 8px
+}
+.active-star:hover{
+    color: #F9A825;
+    cursor: pointer
+}
+.profile{
+    padding-top: 10px
+}
+.name{
+    font-weight: 700
+}
+.designation{
+    font-size: 0.84rem;
+    font-weight: 600
+}
+.owl-carousel{
+    margin-bottom: 15px
+}
+.owl-carousel .owl-stage-outer{
+    padding: 40px 10px;
+    height: 380px
+}
+.owl-carousel .owl-item img{
+    width: 45px !important;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover
+}
+.owl-theme .owl-nav [class*='owl-']{
+    border-radius: 50% !important;
+    background: inherit !important;
+    border: 3px solid #bbb;color: #bbb !important
+}
+.owl-theme .owl-nav [class*='owl-']:hover{
+    border: 3px solid #1010ca;color: #1010ca !important
+}
+
+
+/* ====================== Getting Started Section ======================*/
+.jumbotron{
+    font-family: 'Helvetica';
+    background: #0D28A6;
+    padding-top: 64px;
+    width: 1168px;
+    height: 326px;
+    left: 136px;
+    top: 2078px;
+}
+.jumbotron h1{
+    font-size: 36px;
+    font-weight: 700px;
+}
+.jumbotron p{
+    font-size: 14px;
+    font-weight: 300px;
+}
+
+
+/* ====================== FAQ  ======================*/
+#faq{
+    width: 1168px;
+    margin-left: 136px;   
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.FAQ-col{
+    width: 25%;
+    padding: 0 15px;
+    flex: 1;
+    margin-bottom: 20px;
+}
+.mb-1{
+    height: 36px;
+    left: 9.44%;
+    right: 65%;
+    top: 2508px;
+
+    margin-bottom: 0;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #000000;
+}
+.tag{
+    text-align: center;
+    font-size: 1.1rem
+}
+.fa-heart{
+    color: rgba(255, 230, 0, 0.959);
+    font-size: 30px
+}
+.card{
+    height: 320px;
+    border: none;
+}
+.testimonial{
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    font-weight: 500
+}
+.active-star{
+    color: #FBC02D;
+    margin-bottom: 8px
+}
+.active-star:hover{
+    color: #F9A825;
+    cursor: pointer
+}
+.profile{
+    padding-top: 10px
+}
+.name{
+    font-weight: 700
+}
+.designation{
+    font-size: 0.84rem;
+    font-weight: 600
+}
+.owl-carousel{
+    margin-bottom: 15px;
+    width: 100%;
+}
+.owl-carousel .owl-stage-outer{
+    padding: 40px 10px;
+    height: 380px
+}
+.owl-carousel .owl-item img{
+    width: 45px !important;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover
+}
+.owl-theme .owl-nav [class*='owl-']{
+    border-radius: 50% !important;
+    background: inherit !important;
+    border: 3px solid #bbb;color: #bbb !important
+}
+.owl-theme .owl-nav [class*='owl-']:hover{
+    border: 3px solid #1010ca;color: #1010ca !important
+}
+@media(max-width: 575.5px){.container{margin: 0px;padding: 20px}}
+
+
+/* ====================== Footer ======================*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{ 
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: white;
+    padding: 70px 0;
+    font-family: 'Helvetica';
+    width: 1168px;
+    margin-left: 136px;   
+    display: flex;
+    justify-content: center;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+   flex: 1;
+   margin-bottom: 20px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: black;
+	text-decoration: none;
+	font-weight: 300;
+	color: black;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: black;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: blue;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: white;
+	background-color: blue;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+    .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+    .footer-col{
+    width: 100%;
+}
+}
